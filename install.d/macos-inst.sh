@@ -1,5 +1,7 @@
 #!/bin/sh
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # dircololrs
 brew install coreutils
 GHPROXY="https://gh-proxy.com/"
