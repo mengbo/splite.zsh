@@ -1,6 +1,6 @@
 #!/bin/sh
 
 for dir in "$HOME"/.zsh/*; do
-	echo "Update $(basename "$dir") ..."
-	cd "$dir" && git pull
+  echo "Update $(basename "$dir") ..."
+  cd "$dir" && git pull
 done
