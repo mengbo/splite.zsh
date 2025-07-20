@@ -12,6 +12,9 @@ sudo ln -sf /usr/share/doc/fzf/examples/completion.zsh \
   /usr/share/zsh/vendor-completions/_fzf
 cp ./fzf-previewer ~/bin/fzf-previewer
 
+# direnv
+sudo apt install direnv
+
 # lsd
 VER=v3.4.0
 URL="https://github.com/ryanoasis/nerd-fonts/releases/download/${VER}/Meslo.zip"

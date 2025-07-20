@@ -13,6 +13,9 @@ brew install fd ripgrep tree
 brew install fzf
 cp ./fzf-previewer ~/bin/fzf-previewer
 
+# direnv
+brew install direnv
+
 # lsd
 brew install font-meslo-lg-nerd-font
 brew install lsd
