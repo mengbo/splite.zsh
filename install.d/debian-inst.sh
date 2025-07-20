@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# sudo sed -i \
+#   's#deb http://.*/#deb http://mirrors.aliyun.com/#' \
+#   /etc/apt/sources.list
+
 # dircololrs
 GHPROXY="https://gh-proxy.com/"
 DCFILE="https://raw.githubusercontent.com/seebi/dircolors-solarized/master/dircolors.256dark"
