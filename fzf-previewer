@@ -6,7 +6,7 @@ case "${FT}" in
   *"text"*)
     head -100 "$1"
     ;;
-  "drectory")
+  "directory")
     tree -L 1 --noreport -C "$1"
     ;;
   *"No such file or directory"*)
