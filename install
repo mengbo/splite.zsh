@@ -4,6 +4,7 @@
 
 case "$(uname)" in
   Darwin)
+    ./install.d/brew-inst.sh
     ./install.d/macos-inst.sh
     ;;
   Linux)
