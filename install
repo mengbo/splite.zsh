@@ -1,0 +1,18 @@
+#!/bin/sh
+
+./install.d/base-files.sh
+
+case "$(uname)" in
+  Darwin)
+    ./install.d/macos-inst.sh
+    ;;
+  Linux)
+    command -v apt >/dev/null 2>&1 && ./install.d/debian-inst.sh
+    ;;
+  *)
+    echo "Unsupported OS"
+    exit 1
+    ;;
+esac
+
+./install.d/plugins-inst.sh
