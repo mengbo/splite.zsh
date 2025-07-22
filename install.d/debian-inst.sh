@@ -4,6 +4,13 @@
 #   's#deb http://.*/#deb http://mirrors.aliyun.com/#' \
 #   /etc/apt/sources.list
 
+# Disable /etc/xdg/autostart/kali-sync-skel.desktop 
+rm -f ~/.zprofile
+mkdir -p ~/.config/autostart
+cp /etc/xdg/autostart/kali-sync-skel.desktop ~/.config/autostart/
+sed -i 's/^Hidden=.*/Hidden=true/; $a Hidden=true' \
+  ~/.config/autostart/kali-sync-skel.desktop
+
 # dircololrs
 GHPROXY="https://gh-proxy.com/"
 DCFILE="https://raw.githubusercontent.com/seebi/dircolors-solarized/master/dircolors.256dark"
