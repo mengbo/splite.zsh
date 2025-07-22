@@ -1,5 +1,6 @@
 #!/bin/sh
 
+: > ~/.zprofile
 cp ./zshrc ~/.zshrc
 
 mkdir -p ~/.zshrc.d
