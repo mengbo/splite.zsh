@@ -13,6 +13,9 @@ brew install fd ripgrep tree
 brew install fzf
 cp ./fzf-previewer ~/bin/fzf-previewer
 
+# mise
+brew install mise
+
 # direnv
 brew install direnv
 
