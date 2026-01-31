@@ -9,6 +9,7 @@ plugins+=(mise direnv)
 plugins+=(node npm)
 plugins+=(python pip uv conda-env)
 plugins+=(ruby gem bundler)
+plugins+=(rust)
 plugins+=(docker docker-compose)
 
 source $ZSH/oh-my-zsh.sh
