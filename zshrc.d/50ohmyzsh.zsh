@@ -1,7 +1,8 @@
 export ZSH=~/.zsh/ohmyzsh
 
 #ZSH_THEME="ys"
-ZSH_THEME="bira"
+#ZSH_THEME="bira"
+ZSH_THEME="mengbo"
 
 plugins=(git vi-mode)
 plugins+=(fzf)

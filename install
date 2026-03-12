@@ -17,3 +17,5 @@ case "$(uname)" in
 esac
 
 ./install.d/plugins-inst.sh
+
+./install.d/zsh-theme.sh
