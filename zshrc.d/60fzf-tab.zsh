@@ -1,7 +1,6 @@
 source ~/.zsh/fzf-tab/fzf-tab.plugin.zsh
 
-# disable sort when completing options of any command
-zstyle ':completion:complete:*:options' sort false
+zstyle ':completion:complete:*:*' sort false
 
 # set descriptions format to enable group support
 zstyle ':completion:*:descriptions' format '[%d]'
